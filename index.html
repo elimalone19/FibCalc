@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>Fibonacci Sequence Calculator</title>
+  </head>
+  <body>
+
+  <h1 id = "header">Fibonacci Sequence Calculator</h1>  
+  <h2 id = "output">0</h2>
+    <div>
+        <table border="1" class="center"> 
+            <tr> 
+                <!-- create button and assign value to each button -->
+                <!-- dis("1") will call function dis to display value -->
+                <td><input style="width: 500 px" type="button" value="1" onclick="add_value(1)"/> </td> 
+                <td><input type="button" value="2" onclick="add_value(2)"/> </td> 
+                <td><input type="button" value="3" onclick="add_value(3)"/> </td> 
+            </tr> 
+            <tr> 
+                <td><input type="button" value="5" onclick="add_value(5)"/> </td> 
+                <td><input type="button" value="8" onclick="add_value(8)"/> </td> 
+                <td><input type="button" value="13" onclick="add_value(13)"/> </td> 
+            </tr> 
+            <tr> 
+                <td><input type="button" value="21" onclick="add_value(21)"/> </td> 
+                <td><input type="button" value="34" onclick="add_value(34)"/> </td> 
+                <td><button onclick="undo_button()" style="color: red"><i class="fa fa-undo"></i></button></td> 
+            </tr> 
+        </table> 
+        </div>
+  </body>
+</html>
